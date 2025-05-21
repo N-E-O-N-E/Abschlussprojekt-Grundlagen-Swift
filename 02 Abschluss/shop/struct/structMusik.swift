@@ -9,7 +9,8 @@ struct Hintergrundmusik {
     
     mutating func play() {
         
-        let basePath: String = "/Users/markuswirtz/Dokumente/Entwicklung/Projekte/Neone/02-abschluss-N-E-O-N-E/02 Abschluss/"
+        let basePath: String = "/Users/markuswirtz/Dokumente/Entwicklung/Projektdaten/NEONE/Abschlussprojekt-Grundlagen-Swift/02 Abschluss/"
+        
         let upbeat: String = "\(basePath)/upbeat.mp3"
         let url: URL = URL(fileURLWithPath: upbeat)
         
