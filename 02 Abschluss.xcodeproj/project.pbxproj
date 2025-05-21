@@ -45,7 +45,6 @@
 		CE95A58E2C69E7A200AF3E56 /* 02 Abschluss */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02 Abschluss"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE95A5912C69E7A200AF3E56 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FA0973AB2C74849C001D25AF /* protocollKunde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocollKunde.swift; sourceTree = "<group>"; };
-		FA0973AD2C748B98001D25AF /* upbeat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = upbeat.mp3; path = "/Users/markuswirtz/Library/CloudStorage/OneDrive-Persönlich/Dokumente/Entwicklung/Projekte/02-abschluss-N-E-O-N-E/02 Abschluss/upbeat.mp3"; sourceTree = "<absolute>"; };
 		FA0973AE2C748D38001D25AF /* structMusik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structMusik.swift; sourceTree = "<group>"; };
 		FA71C5B32C6B4A15002345DB /* instanzenKunde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instanzenKunde.swift; sourceTree = "<group>"; };
 		FA71C5B52C6B4A21002345DB /* instanzenProdukte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instanzenProdukte.swift; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		FADFEAB52C6A39CC00C485A2 /* protocollKaufbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocollKaufbar.swift; sourceTree = "<group>"; };
 		FADFEAB72C6A39DB00C485A2 /* protocollGeschenkoptionen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocollGeschenkoptionen.swift; sourceTree = "<group>"; };
 		FADFEAB92C6A39EF00C485A2 /* enumShopStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumShopStatus.swift; sourceTree = "<group>"; };
+		FAF0C62D2DDDF0490097EA17 /* upbeat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = upbeat.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 		CE95A5902C69E7A200AF3E56 /* 02 Abschluss */ = {
 			isa = PBXGroup;
 			children = (
-				FA0973AD2C748B98001D25AF /* upbeat.mp3 */,
+				FAF0C62D2DDDF0490097EA17 /* upbeat.mp3 */,
 				FADFEA9F2C6A387D00C485A2 /* warenkorb */,
 				FADFEA9E2C6A386900C485A2 /* shop */,
 				FADFEA9D2C6A386400C485A2 /* produkte */,
@@ -237,7 +237,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					CE95A58D2C69E7A200AF3E56 = {
 						CreatedOnToolsVersion = 15.4;
@@ -327,6 +327,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -390,6 +391,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -415,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -424,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
